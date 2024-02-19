@@ -1,0 +1,303 @@
+.headerTopDiv {
+  background: #fff;
+}
+
+.headerMainDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 88%;
+  margin: auto;
+  padding: 15px 0px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.thirdSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logoAndLinks {
+  width: 95%;
+  display: flex;
+  align-items: center;
+}
+.logoMainDiv {
+  margin-right: 10px;
+}
+
+.logoDiv {
+  max-width: 270px;
+}
+.thirdSection {
+  width: 5%;
+}
+
+.linksDiv {
+  margin: 0px 10px;
+}
+
+.headerIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.headerSearchIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.headerIconDiv,
+.headerSearchIconDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerSearchIconDiv {
+  margin-right: 10px;
+}
+
+.link_style {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.headerBtn {
+  /* background: #b38941;
+  color: #fff;
+  padding: 10px 32px;
+  text-decoration: underline;
+  margin-right: -10px; */
+
+  padding: 8px 20px;
+  background-color: #936e4e;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  font-family: "Afacad", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 7px;
+  border: none;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+/* .headerBtnDiv {
+  border-width: 2px 2px 2px 2px;
+  border-style: solid;
+  border-color: #b38941;
+  padding: 14px 0 0 5px;
+  margin-left: 20px;
+} */
+
+.topHeaderPara {
+  margin: 0;
+  font-size: 16px;
+}
+
+.topHeadericonDescriDiv {
+  display: flex;
+}
+
+.topHeadericonDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addressesDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topHeaderAllInfo {
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: center; */
+  background: linear-gradient(101deg, #ac8d71 0%, #fce7cf 50.5%, #d7bea0 100%);
+  border-radius: 0 0 13px 0;
+  padding: 7px 47px 7px 17px;
+  width: 80%;
+}
+
+.topHeaderAllInfoSubDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 93%;
+}
+
+.topHeadericonDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.topHeadericon {
+  fill: #ceb396;
+  width: 13px;
+  height: 13px;
+  background: #000;
+  border-radius: 100%;
+  padding: 3px 3px;
+}
+
+.topHeaderClockicon {
+  width: 18px;
+  height: 16px;
+}
+
+.topHeaderLocationDiv {
+  margin-right: 30px;
+}
+
+.topHeaderSocialIconDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 4px;
+  background: #fff;
+  border-radius: 100%;
+  margin: 0 10px;
+}
+
+.topHeaderAllSocialIconDiv {
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.topHeaderSocialIcon {
+  fill: #ad8e72;
+}
+
+.topHeaderMainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ad8e72;
+}
+
+.topHeaderSocialIcon {
+  width: 10px;
+  height: 10px;
+}
+
+.topHeaderTopDiv {
+  width: 20%;
+  padding-left: 25px;
+}
+.responsiveDiv {
+  display: none;
+}
+@media only screen and (max-width: 1300px) {
+  .responsiveDiv {
+    display: block;
+  }
+  .topHeaderMainDiv {
+    display: none;
+  }
+  .headerMainDiv {
+    display: none;
+  }
+  .hamburgerMenuDiv {
+    display: none;
+  }
+  .openButton {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1001;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .headerDrawerBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(36, 43%, 58%, 0.5);
+    backdrop-filter: blur(25px);
+    z-index: 999; /* Set z-index lower than the dialog box */
+  }
+  
+  .headerDrawer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform .5s ease,visibility .5s ease,opacity .5s ease;
+    transform: translateX(-100%) translateY(-100%);
+    z-index: 1000;
+    transition-delay:.1s
+  }
+  
+  .headerDrawer.open {
+    transform: translateX(0) translateY(0);
+  }
+  
+  .headerDrawerContent {
+    position: relative;
+    max-width: 530px;
+    border-radius: 60px 0 60px 0;
+    background-image: linear-gradient(36deg, #ab8c71, #b89e78 31.77%, #ffead2);
+    padding: 60px;
+    margin: 60px 0 0 60px;
+  }
+  .closeButton {
+    position: absolute;
+    border: none;
+    font-size: 22px;
+    background: transparent;
+    top: 30px;
+    left: 30px;
+    color: #000;
+    cursor: pointer;
+  }
+  .links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .linksDiv {
+    margin: 4px 10px;
+  }
+  .headerBtnDiv {
+    margin-top: 20px;
+  }
+  /* .thirdSection{
+    position: fixed;
+    width: 100%;
+    top: 20px;
+    right: 20px;
+  } */
+}
+@media only screen and (max-width: 768px) {
+
+.headerDrawerContent{
+  margin: 20px ;
+  max-width: 768px;
+  border-radius: 20px 0  ;
+  padding: 40px;
+}
+.closeButton{
+  top: 15px;
+  left: 15px;
+}
+
+}

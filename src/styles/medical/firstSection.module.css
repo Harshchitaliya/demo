@@ -1,0 +1,87 @@
+.container {
+  background: linear-gradient(101deg, #ac8d71 0%, #fce7cf 50.5%, #d7bea0 100%);
+  padding: 0 140px 60px 140px;
+}
+.inner_container {
+  border-radius: 0px 0px 21px 21px;
+  background: #f2e6d6;
+  padding: 0 65px 30px 65px;
+}
+.main_heading h2 {
+  color: #2c392c;
+  text-align: center;
+  font-family: "Mories", serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 10px 0 20px 0;
+}
+.sub_heading h4 {
+  color: #ad8e72;
+  text-align: center;
+  font-family: "Mories", serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding-bottom: 30px;
+}
+.medcare_image img {
+  width: 100%;
+}
+@media only screen and (max-width: 1200px) {
+  .container {
+    padding: 0 80px 60px 80px;
+  }
+  .main_heading h2 {
+    font-size: 42px;
+  }
+  .sub_heading h4 {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    padding: 0 60px 60px 60px;
+  }
+  .main_heading h2 {
+    font-size: 42px;
+  }
+  .sub_heading h4 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main_heading h2 {
+    font-size: 30px;
+  }
+  .sub_heading h4 {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .container {
+    padding: 0 40px 40px 40px;
+  }
+  .inner_container {
+    padding: 0 30px 30px 30px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .container {
+    padding: 0 30px 30px 30px;
+  }
+  .inner_container {
+    padding: 0 20px 20px 20px;
+  }
+  .main_heading h2 {
+    font-size: 28px;
+  }
+  .sub_heading h4 {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,211 @@
+* {
+  font-family: "Afacad", sans-serif;
+}
+
+.footer {
+  background: #99704d;
+}
+
+.footerTopMainDiv {
+  margin: 0 auto;
+  padding: 60px 140px;
+}
+
+.footerMainDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0 50px 0;
+  border-bottom: 1px solid #fff;
+  align-items: center;
+}
+
+.socialMediaAndBackToTop {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.socialMediaIconsMainDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialMedia {
+  margin: 0;
+  color: #fff;
+  font-size: 15px;
+}
+
+.socialMediaTextDiv {
+  margin-right: 10px;
+}
+
+.socialMediaIconsDiv {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backToTopDiv {
+  background: #fff;
+  border-radius: 100%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.email_text {
+  color: #efd9c0;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 100;
+}
+.footerEmail {
+  color: #fff;
+  font-size: 21px;
+  margin: 0 0 35px 0;
+}
+
+.footerVendorIconDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.footerVendorIcon {
+  width: 25px;
+}
+
+.footerVendorText {
+  color: #efd9c0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.footerVendorAgent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footerHeading {
+  color: #fff;
+  margin: 0 0 23px 0;
+  font-size: 17px;
+  font-weight: 100;
+}
+
+.footerText {
+  color: #fce7cf;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.footerBoldText {
+  color: #fce7cf;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.footerTextSubDiv {
+  margin-top: 25px;
+}
+
+.footerLinks {
+  display: grid;
+  justify-content: space-between;
+  margin-top: 55px;
+  grid-template-columns: 40% 20% 20% 20%;
+}
+
+/* .footerContactDetails {
+  width: 40%;
+} */
+
+/* .footerLink1,
+.footerLink2,
+.footerLink3 {
+  width: 20%;
+} */
+
+.copyrightLinksDiv {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 0 0;
+}
+
+.copyrightText {
+  color: #fff;
+  font-size: 13px;
+  margin: 0;
+}
+
+.footerGoldenText {
+  color: #dfc7ab;
+  font-family: "Afacad", sans-serif;
+  margin: 10px 0 0px 0;
+  padding-bottom: 10px;
+  font-size: 88px;
+  font-weight: 400;
+  letter-spacing: -3px;
+}
+
+.copyrightTextLink {
+  color: #fff;
+}
+
+.footerLogosMainDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.footerLogo1,
+.footerLogo2 {
+  width: 13%;
+}
+
+.footerLogo3 {
+  width: 17%;
+}
+
+.footerLogo1,
+.footerLogo2 {
+  margin-right: 40px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footerTopMainDiv {
+    padding: 60px 60px;
+  }
+  .footerLinks {
+    grid-template-columns: 50% 50%;
+    gap: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footerEmail {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .footerLinks {
+    grid-template-columns: 100%;
+  }
+  .footerGoldenText {
+    font-size: 46px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .footerTopMainDiv {
+    padding: 40px 40px 20px 40px;
+  }
+}
